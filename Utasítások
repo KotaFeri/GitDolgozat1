@@ -1,0 +1,17 @@
+Lépj be a GitDolgozat mappába
+cd GitDolgozat
+
+Inicializáld a Git repositoryt
+git init
+
+Add hozzá az összes fájlt
+git add .
+
+Commit a fájlokat
+git commit -m "Első commit a GitDolgozat mappából"
+
+Add hozzá a GitHub távoli repositoryt
+git remote add origin https://github.com/KotaFeri/GitDolgozat.git
+
+Push-olj a GitHub-ra
+git push -u origin master 
